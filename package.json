@@ -1,0 +1,27 @@
+
+/*
+  bodyParser:解析post请求数据
+  cookies:读/写cookie
+  swig:模板解析引擎
+  mongoose:操作mongodb数据
+  bodyParser:语法解析生成模块
+*/
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookies": "^0.7.0",
+    "express": "^4.15.4",
+    "markdown": "^0.5.0",
+    "mongoose": "^4.11.6",
+    "swig": "^1.4.2"
+  }
+}
